@@ -167,6 +167,15 @@ export default function Page() {
 </a>
               <a className="btn btnGreen" href={`tel:${PHONE_NUMBER}`}>{t.call}</a>
               <a className="btn btnOutline" href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer">WhatsApp</a>
+<a
+  className="btn btnOutline"
+  href="https://www.instagram.com/sulacleaningservices/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ borderColor: "#E1306C", color: "#E1306C" }}
+>
+  Instagram
+</a>
             </div>
           </div>
 
