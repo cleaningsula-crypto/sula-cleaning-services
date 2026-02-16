@@ -158,7 +158,7 @@ export default function Page() {
 
             <div className="actions">
               <a 
-  className="btn btnPrimary" 
+  className="btnAnimated"
   href="https://calendly.com/cleaningsula/30min" 
   target="_blank" 
   rel="noopener noreferrer"
