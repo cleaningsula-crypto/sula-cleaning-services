@@ -212,15 +212,15 @@ export default function Page() {
                 <div className="label">{t.calendlyTitle}</div>
                 <div className="muted" style={{ marginBottom: 12 }}>{t.calendlyText}</div>
 
-                {/* Calendly Inline Widget */}
-                <div
-                  className="calendly-inline-widget"
-                  data-url={CALENDLY_URL}
-                  style={{ minWidth: "320px", height: "640px" }}
-                />
-                <div className="note">
-                  If you haven’t created your Calendly link yet, the widget will show an error until you paste the correct URL.
-                </div>
+              <a
+  href={CALENDLY_URL}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btnPrimary"
+  style={{ display: "inline-block", marginTop: 10 }}
+>
+  Schedule with Live Calendar
+</a>
               </div>
 
               <div className="card">
