@@ -157,7 +157,14 @@ export default function Page() {
             </div>
 
             <div className="actions">
-              <a className="btn btnPrimary" href="#booking">{t.book}</a>
+              <a 
+  className="btn btnPrimary" 
+  href="https://calendly.com/cleaningsula/30min" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  {t.book}
+</a>
               <a className="btn btnGreen" href={`tel:${PHONE_NUMBER}`}>{t.call}</a>
               <a className="btn btnOutline" href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer">WhatsApp</a>
             </div>
