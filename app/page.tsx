@@ -156,10 +156,10 @@ export default function Page() {
             </div>
 
             <div className="actions">
-              <a 
+<a
   className="btnAnimated"
-  href="https://calendly.com/cleaningsula/30min" 
-  target="_blank" 
+  href={CALENDLY_URL}
+  target="_blank"
   rel="noopener noreferrer"
 >
   {t.book}
